@@ -19,7 +19,7 @@ npm start
                                             
 ### LIVE running version
 **URL** 
-https://todolist-ensolvers-frontend.herokuapp.com/
+https://todolist-react-ensolvers.herokuapp.com/
 
 _The first time you open the page it might be delayed a bit because the frontend and the backend are two different apps_
 
