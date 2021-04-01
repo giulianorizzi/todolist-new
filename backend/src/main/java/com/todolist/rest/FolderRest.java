@@ -40,10 +40,10 @@ public class FolderRest {
 	}
 	
 	@GetMapping("/listar")
-	public List <FolderFullDTO> listar() {
+	public List <FolderDTO> listar() {
 		List<Folder> folders = folderService.listar();
 		return folders.stream()
-				.map(this::convertToFullDto)
+				.map(this::convertToDto)
 				.collect(Collectors.toList());
 	}
 	
